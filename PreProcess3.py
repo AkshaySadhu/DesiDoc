@@ -6,9 +6,9 @@ import torch
 from torch.utils.data import Dataset
 
 # Load the dataset
-train_data = pd.read_csv('C:/Users/urani/Documents/MSCS/CS6220 BDA/Project/22687585/release_train_patients/release_train_patients')
-evidence_dict = json.load(open('C:/Users/urani/Documents/MSCS/CS6220 BDA/Project/22687585/release_evidences.json'))
-conditions = json.load(open('C:/Users/urani/Documents/MSCS/CS6220 BDA/Project/22687585/release_conditions.json'))
+train_data = pd.read_csv('/HindiMedLLM/22687585/release_train_patients/release_train_patients')
+evidence_dict = json.load(open('/HindiMedLLM/22687585/release_evidences.json'))
+conditions = json.load(open('/HindiMedLLM/22687585/release_conditions.json'))
 
 # Data Cleaning
 def clean_text(text):
